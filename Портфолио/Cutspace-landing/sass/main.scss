@@ -1,0 +1,22 @@
+// Base
+@import "./base/base.scss";
+@import "./base/reset";
+@import "./base/vars";
+
+// Blocks
+@import './blocks/nav';
+@import './blocks/logo';
+@import './blocks/header';
+@import './blocks/form';
+@import './blocks/navigation-list';
+@import './blocks/button';
+@import './blocks/clients.scss';
+@import './blocks/objects';
+@import './blocks/title';
+@import './blocks/img-card';
+@import './blocks/card-info.scss';
+@import './blocks/cta';
+@import './blocks/serve';
+@import './blocks/card-customer';
+@import './blocks/benefits.scss';
+@import './blocks/benefit-item';

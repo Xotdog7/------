@@ -1,0 +1,12 @@
+@import '../mobile/media';
+.joke{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+
+    @include tablet{
+        font-size: 20px;
+        
+    }
+}

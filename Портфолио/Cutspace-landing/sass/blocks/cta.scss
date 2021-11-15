@@ -1,0 +1,56 @@
+.cta {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.cta-block {
+    background-color:  #58BEBF;
+    border-radius: 20px;
+
+    align-items: stretch;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    color: white;
+
+
+}
+.cta-img {
+    margin-top: 60px;
+    padding-top: 25px;
+    padding-right: 25px;
+    background-color: white;
+    border-radius: 0 20px 0 0;
+}
+
+.cta-text {
+
+    background: url(./../../img/Oval.png) no-repeat bottom left, 
+    url(../../img/top-left-circle.png) no-repeat top right;
+
+    width: 555px;
+
+   padding-left: 95px;
+   padding-right: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    p{
+        
+        width: 320px;
+    }
+}
+.cta-title{
+   margin-bottom: 15px; 
+}
+
+.cta-button-row {
+    margin-top: 30px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.button-white {
+}
+

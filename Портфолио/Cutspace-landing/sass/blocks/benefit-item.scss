@@ -1,0 +1,45 @@
+.benefits-item {
+    text-align: center;
+}
+.benefit-other-item {
+}
+
+.benefit-item {
+
+		// .benefit-item_img
+
+		&_img {
+            display: inline-block;
+            margin-bottom: 15px;
+
+
+            circle{
+                fill:   rgba(88, 190, 191, 0.2);;
+            }
+            path, ellipse{
+                fill: #58BEBF;;
+
+            } 
+           
+           
+            &:hover {
+             circle{
+                transition:  fill 0.4s ease-in-out;
+                 fill:   #F78434;
+             }
+             path, ellipse{
+                transition:  fill 0.2s ease-in-out;
+                 fill: white ;;
+                
+             }
+        }   
+		}
+
+       
+		// .benefit-item_title
+
+		&_title {
+            margin-bottom: 2px;
+            font-style: 28px;
+		}
+}

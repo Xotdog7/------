@@ -1,0 +1,36 @@
+
+.tabheader
+{
+    width:280px;
+    padding:35px 30px;
+    background-color:#fff;
+     h3
+    {
+        font-weight:700;
+        font-size:16px
+    }
+    &__items
+    {
+        margin-top:35px;
+        padding-left:26px;
+        border-left:1px solid #000
+    }
+    &__item
+    {
+        font-weight:700;
+        font-size:18px;
+        font-weight:300;
+        margin-top:10px;
+        color:rgba(0,0,0,.6);
+        cursor:pointer;
+        transition:.3s all;
+
+        &_active
+        {
+            color:#000;
+            font-size:22px;
+            font-weight:700
+        }    
+}
+
+}

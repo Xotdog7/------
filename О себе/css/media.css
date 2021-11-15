@@ -1,0 +1,129 @@
+@media(max-width:1140px){
+    .card{
+        width: calc(50% - 10px);
+    }
+
+    .footer{
+        padding: 60px 0 40px;
+    }
+
+    .footer-row{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-col{
+        margin-bottom: 50px;
+
+    }
+    .footer-icons-row {
+
+        justify-content: space-around;
+    }
+
+    .footer-col:first-child{
+        margin-bottom: 0;
+    }
+
+}
+@media(max-width: 760px){
+    .header-title{
+        font-size: 32px;
+ 
+    }   
+        .header-subtitle{
+        font-size: 14px;
+    }
+    .portfolio{
+        padding: 60px 0 40px;
+    }
+    .portfolio-header{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .portfolio-cards-wrapper{
+        justify-content: center;
+    }
+
+    /* header-cv */
+
+    .header-cv-row{
+
+        flex-wrap: wrap;
+        max-width: 530px;
+        width: 100%;
+    }
+
+    .header-cv-text p{
+        margin-bottom: 10px;
+        font-style: 14px;
+    }
+
+    .header-cv-img img{
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+    /* Card start */
+    
+    .card{
+        max-width: 530px;
+        width: 100%;
+
+    }
+    .card-link{
+        padding: 15px;
+    }
+    .card-img{
+        margin-bottom: 10px;
+    }
+    .card-title p{
+        font-size: 14px;
+    }
+
+
+    /*  footer start */
+    .footer-icons-row {
+
+        justify-content: space-around;
+    }
+
+    .footer-copyright-name {
+        font-size: 18px;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+    .footer-contacts  p{
+        font-size: 14px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+/*  project Start***** */
+
+    .project{
+        padding: 40px 0 60px;
+        
+    }
+    .project-header{
+         font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .project-img{
+        margin-bottom: 20px;
+    }
+
+    .project-description{
+        margin-bottom: 50px;
+    }
+     .project-btn-back{
+         padding: 0 10px ;
+         width: 100%;
+        max-width: 320px;    
+    }
+
+}

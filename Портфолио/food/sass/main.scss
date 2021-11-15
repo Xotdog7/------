@@ -1,0 +1,23 @@
+// base
+
+@import './base/base';
+@import './base/reset';
+
+// blocks
+
+@import "./block/button";
+@import "./block/calculating.scss";
+@import "./block/header.scss";
+@import "./block/modal.scss";
+@import "./block/offer.scss";
+@import "./block/preview.scss";
+@import "./block/promotion.scss";
+@import "./block/menu.scss";
+@import "./block/slidePanel.scss";
+@import "./block/order.scss";
+@import "./block/footer";
+
+
+@import "./block/tab block/tab-container";
+@import "./block/tab block/tab-content";
+@import "./block/tab block/tab-header";
