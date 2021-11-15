@@ -104,16 +104,7 @@ body {
     align-items: center;
 }
 
-.header-cv-img{
-    max-width: 250px;
-    max-height: 250px;
-    position: relative;
-    
- 
-}
-
 .header-cv-img img{ 
-    transition: opacity 0.3s ease-in;
     height: 250px;
     max-width: 250px;
     border-radius: 150px;
@@ -135,9 +126,7 @@ body {
 
 
 
-.header-cv-img img:hover{
-    opacity: 0.2;
-}
+
 
 .header-cv-img p{
     position: absolute;
