@@ -172,7 +172,7 @@ video{
 .about-me-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 110px;
 }
 .about-me-row p{
     margin-top: 20px;
